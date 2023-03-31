@@ -4,7 +4,7 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/hextest">HexTest</router-link> |
     <!-- <router-link :to="linkID">IDKHAHA</router-link> -->
-    <router-link :to="`/item/${tmp}`">IDKHAHA</router-link>
+    <router-link :to="`/item/${tmp}`">ohnoooooo</router-link>
   </div>
 </template>
 <style lang="scss">
