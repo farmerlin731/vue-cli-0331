@@ -14,5 +14,15 @@ export default {
   components: {
     HelloWorld,
   },
+  methods: {
+    getList() {
+      this.axios.get("https://randomuser.me/api/").then((res) => {
+        console.log(res.data);
+      });
+    },
+  },
+  mounted() {
+    this.getList();
+  },
 };
 </script>

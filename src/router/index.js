@@ -16,6 +16,18 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
+  {
+    path: "/hextest",
+    name: "Hextest",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/HexTest.vue"),
+  },
+  {
+    path: "/item/:id",
+    name: "item",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ProdutDetail.vue"),
+  },
 ];
 
 const router = createRouter({

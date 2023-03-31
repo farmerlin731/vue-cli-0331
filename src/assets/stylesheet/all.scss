@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/functions";
+@import "./helpers/variables" ; // self definition
+@import "~bootstrap/scss/bootstrap";
+
+// a{
+//     background-image: url();
+// }
+.tmp{
+    background-color: aqua;
+    background-size:cover;
+    background-position: center center;
+}
